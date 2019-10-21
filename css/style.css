@@ -472,6 +472,13 @@ body.offcanvas {
         float: left;
         padding: 5px; }}
 
+.clearfix::before, .clearfix::after{
+  content: " ";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
 
 .services {
   margin-bottom: 30px;
