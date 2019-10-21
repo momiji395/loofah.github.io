@@ -472,6 +472,7 @@ body.offcanvas {
         float: left;
         padding: 5px; }}
 
+
 .services {
   margin-bottom: 30px;
   padding: 1em;
@@ -686,7 +687,6 @@ body.offcanvas {
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         /*font-size: 28px;*/ } }
-
 
 .work-menu span {
   margin-left: 10px; }
