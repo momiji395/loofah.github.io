@@ -69,6 +69,7 @@ figure {
   background: #FFC778; }
 
 
+
 #colorlib-page {
   width: 100%;
   overflow: hidden;
@@ -470,14 +471,6 @@ body.offcanvas {
         width: 25%;
         float: left;
         padding: 5px; }}
-
-.clearfix::before, .clearfix::after{
-  content: " ";
-  display: table;
-}
-.clearfix::after{
-  clear: both;
-}
 
 .services {
   margin-bottom: 30px;
@@ -1470,5 +1463,3 @@ hr {
   padding-right: 15px;
   padding-top: 10px;
 }
-
-
