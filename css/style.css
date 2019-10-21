@@ -447,38 +447,85 @@ body.offcanvas {
 
 
 /* define bootstrap 5 columns */
-.col-md-1-6 {
+.col-md-2 {
     width: 20%;
     float: left;
     /*padding-left: 0px;
     padding-right: 0px;*/
   }
 
-.col-md-1-8 {
+.col-2{
+    width: 16.66667%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: 50%;
+}
+
+
+.col-md-3 {
     width: 25%;
     float: left;
     padding: 20px;
     position: relative;
 }
+.col-md-6{
+   width: 50%;
+}
+
 @media screen and (min-width: 900px) and (max-width: 1200px){
- .col-md-1-8 {
+ .col-md-3 {
         width: 20%;
         float: left;
         padding: 10px; }} 
 
+.col-sm-2 {
+    width: 20%;
+    float: left;
+    /*padding-left: 0px;
+    padding-right: 0px;*/
+  }
+
+.col-2{
+    width: 16.66667%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: 50%;
+}
+
 @media screen and (max-width: 900px) {
-.col-md-1-8 {
+.col-md-3{
         width: 25%;
         float: left;
         padding: 5px; }}
 
-.clearfix::before, .clearfix::after{
-  content: " ";
-  display: table;
+.col-sm-2 {
+    width: 20%;
+    float: left;
+    /*padding-left: 0px;
+    padding-right: 0px;*/
+  }
+.col-2{
+    width: 16.66667%;
 }
-.clearfix::after{
-  clear: both;
+
+.col-6{
+    width: 50%;
 }
+
+.col-8{
+    width: 50%;
+}
+
 
 .services {
   margin-bottom: 30px;
