@@ -389,7 +389,8 @@ body.offcanvas {
   -moz-box-shadow: 0 0 0 5px #E6E3DA;
   -webkit-box-shadow: 0 0 0 5px #E6E3DA;
   box-shadow: 0 0 0 5px #E6E3DA;
-  line-height: 47px; }
+  line-height: 47px;
+  float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
@@ -448,23 +449,27 @@ body.offcanvas {
 /* define bootstrap 5 columns */
 .col-md-1-6 {
     width: 20%;
+    float: left;
     /*padding-left: 0px;
     padding-right: 0px;*/
   }
 
 .col-md-1-8 {
     width: 25%;
+    float: left;
     padding: 20px;
     position: relative;
 }
 @media screen and (min-width: 900px) and (max-width: 1200px){
  .col-md-1-8 {
         width: 20%;
+        float: left;
         padding: 10px; }} 
 
 @media screen and (max-width: 900px) {
 .col-md-1-8 {
         width: 25%;
+        float: left;
         padding: 5px; }}
 
 
