@@ -68,7 +68,11 @@ figure {
   color: #fff;
   background: #FFC778; }
 
-
+iframe {
+width: 1px;
+min-width: 100%;
+*width: 100%;
+}
 
 #colorlib-page {
   width: 100%;
