@@ -1357,7 +1357,7 @@ hr {
 
 .col-2, .col-4,.col-6, .col-8 {
   position: relative;
-  width: 70%;
+  width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
