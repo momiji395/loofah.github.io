@@ -474,6 +474,9 @@ body.offcanvas {
         float: left;
         padding: 5px; }}
 
+.col-xs-4{
+  width: 25%;
+}
 
 .services {
   margin-bottom: 30px;
