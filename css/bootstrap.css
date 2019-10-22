@@ -911,10 +911,13 @@ pre code {
   margin-left: -15px;
   margin-right: -15px;
 }
-.row:before, .row:after {
-  content: " ";
-  display: table;
+/**
+Fixing bootstrap columns for safari
+ */
+.row:before, .row:after{
+ display: inline-block !important;
 }
+
 .row:after {
   clear: both;
 }
