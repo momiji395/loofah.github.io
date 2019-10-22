@@ -1465,3 +1465,7 @@ hr {
   padding-right: 15px;
   padding-top: 10px;
 }
+
+.row:before, .row:after {
+    display: inline-block;
+}
