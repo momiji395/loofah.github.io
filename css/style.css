@@ -1471,7 +1471,7 @@ body.offcanvas {
   position: fixed;
   /*left: -5px;*/
   top: 0px;
-  z-index: 1039;
+  z-index: 1030;
   cursor: pointer;
   opacity: 1;
   visibility: hidden;
