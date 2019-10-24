@@ -177,7 +177,7 @@ figure {
         padding: 0;
         list-style: none;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 1px; } }      
         #colorlib-aside #colorlib-main-menu ul li a {
@@ -1471,7 +1471,7 @@ body.offcanvas {
   position: fixed;
   /*left: -5px;*/
   top: 0px;
-  z-index: 9999;
+  z-index: 1039;
   cursor: pointer;
   opacity: 1;
   visibility: hidden;
