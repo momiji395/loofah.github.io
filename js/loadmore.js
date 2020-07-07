@@ -27,6 +27,20 @@ $( document ).ready(function () {
             }
         });
     });
+$( document ).ready(function () {
+        $(".moreBox3").slice(0, 6).show();
+        if ($(".blogBox3:hidden").length != 0) {
+            $("#loadMore3").show();
+        }       
+        $("#loadMore3").on('click', function (e) {
+            e.preventDefault();
+            $(".moreBox3:hidden").slice(0, 4).slideDown();
+            if ($(".moreBox3:hidden").length == 0) {
+                $("#loadMore3").fadeOut('slow');
+            }
+        });
+    });
+
 
 
 
