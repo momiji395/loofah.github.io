@@ -210,7 +210,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #FFC778; }
             #colorlib-aside #colorlib-main-menu ul li a:hover:after {
               visibility: visible;
               -webkit-transform: scaleX(1);
@@ -218,7 +218,7 @@ figure {
               -ms-transform: scaleX(1);
               -o-transform: scaleX(1);
               transform: scaleX(1); }
-        #colorlib-aside #colorlib-main-menu ul li.active a {
+        /*#colorlib-aside #colorlib-main-menu ul li.active a {
           color: #FFC778; }
           #colorlib-aside #colorlib-main-menu ul li.active a:after {
             visibility: visible;collapse
@@ -227,7 +227,7 @@ figure {
             -moz-transform: scaleX(1);
             -ms-transform: scaleX(1);
             -o-transform: scaleX(1);
-            transform: scaleX(1); }
+            transform: scaleX(1); }*/
   #colorlib-aside .colorlib-footer {
     font-size: 15px;
     text-align: center;
@@ -1170,7 +1170,7 @@ body.offcanvas {
 .colorlib-social {
   padding: 0;
   margin: 0;
-  text-align: center; }
+  text-alignhover: center; }
   .colorlib-social li {
     padding: 0;
     margin: 0;
