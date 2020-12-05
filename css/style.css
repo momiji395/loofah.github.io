@@ -1820,3 +1820,15 @@ hr {
   padding-top: 10px;
 }
 
+.img-company{
+  height: 25%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
+}
+@media (max-width: 1000px) {
+  .img-company {
+    display: none;
+  }
+}
