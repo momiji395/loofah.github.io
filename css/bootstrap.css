@@ -5303,8 +5303,8 @@ button.list-group-item-danger.active:focus {
 .close {
   float: right;
   font-size: 40px;
-  font-weight: normal;
-  line-height: 1;
+  font-weight: 400;
+  line-height: 0.5;
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
