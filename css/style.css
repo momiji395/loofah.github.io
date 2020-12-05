@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial,'Noto Sans TC', sans-serif;
   font-weight: 300;
-  font-size: 13.5px;
+  font-size: 15px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -158,7 +158,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -424,7 +424,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 7em;
   clear: both;
   width: 100%;
   display: block; }
@@ -483,7 +483,7 @@ body.offcanvas {
 
 .about-desc p {
   letter-spacing:1.5px;
-  font-size: 14px;}
+  font-size: 15px;}
 
 .hire {
   padding: 2em;
@@ -966,7 +966,7 @@ body.offcanvas {
     margin-left: 0; }
   .work-menu span a {
     color: #000;
-    font-size:16px;
+    font-size:18px;
     font-weight: 400
 }
 
@@ -1777,7 +1777,7 @@ hr {
 .modal-instructions p {
   padding-top: 0px;
   margin-bottom: 0.2em;
-  font-size: 12.5px;
+  font-size: 15px;
 }
 
 .modal-uiux {
@@ -1786,7 +1786,7 @@ hr {
 .modal-uiux p {
   padding-top: 0px;
   margin-bottom: 0.2em;
-  font-size: 12.5px;
+  font-size: 15px;
 }
 
 
