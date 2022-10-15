@@ -81,3 +81,13 @@
 .icon-ui:before {
   content: "\e915";
 }
+
+.icon-Figma:before {
+  content: "\e900";
+}
+.icon-sketch:before {
+  content: "\e901";
+}
+.icon-Zepiln:before {
+  content: "\e902";
+}
