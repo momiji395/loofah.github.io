@@ -35,6 +35,10 @@ p {
   margin-bottom: 1.5em; 
   }
 
+li{
+  font-weight: 500;
+} 
+
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia,'Noto Sans TC', sans-serif;
@@ -1831,4 +1835,15 @@ hr {
   .img-company {
     display: none;
   }
+}
+
+.uiux_text{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.uiux_5_title{
+  font-weight: 500;
+  padding-top: 40px;
+  padding-bottom: 8px;
 }
