@@ -1000,6 +1000,11 @@ body.offcanvas {
   margin-bottom: 30px;
   border-radius:30px}
 
+ @media screen and (max-width: 1440px){
+  .project {
+    height: 400px;
+ }} 
+
 
   .project .desc {
     position: absolute;
@@ -1011,7 +1016,8 @@ body.offcanvas {
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    border-radius:30px; }
     .project .desc .con {
       padding: 20px;
       display: block;
@@ -1089,7 +1095,8 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        background: rgba(0, 0, 0, 0.4);
+        border-radius:30px; }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
