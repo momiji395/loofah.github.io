@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial,'Noto Sans TC', sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -162,8 +162,8 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 13px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 1px; }
       @media screen and (min-width: 768px) and (max-width: 1024px){
@@ -262,7 +262,7 @@ figure {
             color: #FFC778; }
 
 .container-wrap {
-  max-width: 1170px;
+  max-width: 1440px;
   margin: 0 auto; }
 
 #colorlib-main {
@@ -371,7 +371,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
-          font-size: 12px;
+          font-size: 20px;
           text-transform: uppercase;
           letter-spacing: 2px;
           color: #000;
@@ -451,7 +451,7 @@ body.offcanvas {
   position: relative; }
 
 .colorlib-heading {
-  font-size: 35px;
+  font-size: 40px;
   margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -487,7 +487,7 @@ body.offcanvas {
 
 .about-desc p {
   letter-spacing:1.5px;
-  font-size: 15px;}
+  font-size: 18px;}
 
 .hire {
   padding: 2em;
@@ -970,7 +970,7 @@ body.offcanvas {
     margin-left: 0; }
   .work-menu span a {
     color: #000;
-    font-size:18px;
+    font-size:20px;
     font-weight: 400
 }
 
@@ -994,10 +994,11 @@ body.offcanvas {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 400px;
   width: 100%;
   display:block;
-  margin-bottom: 30px;}
+  margin-bottom: 30px;
+  border-radius:30px}
 
 
   .project .desc {
@@ -1253,14 +1254,14 @@ body.offcanvas {
   margin-right: 4px;
   margin-bottom: 4px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 5px;
+  border-radius: 20px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
