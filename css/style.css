@@ -91,7 +91,7 @@ figure {
   transition: 0.5s; 
   overflow: auto;
  }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1025px) {
     #colorlib-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
@@ -1493,7 +1493,7 @@ body.offcanvas {
   transition: 0.5s; 
   background-color: #ffffff;
   width: 100%;}
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1025px) {
     .colorlib-nav-toggle {
       opacity: 1;
       visibility: visible; } }
